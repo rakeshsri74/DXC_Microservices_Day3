@@ -1,0 +1,12 @@
+package com.dxc.model;
+
+import java.util.ArrayList;
+
+public class User {
+
+	private Long userId;
+	private String user;
+	private String phone;
+	
+	List<Contact> contacts = new ArrayList<>();
+}

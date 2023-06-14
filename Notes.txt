@@ -1,0 +1,11 @@
+An API gateway is an API management tool that sits between a client and a collection of backend services.
+
+An API gateway acts as a reverse proxy at accept all application programming interface(API) calls,aggregate the various services required to fullfil them,and return the application result.
+
+Ticket service:9900 192.168.0.2 http://192.168.0.2:9900/call or http://localhost:9900/call
+Review Service:8800 192.168.0.3 http://192.168.0.3:8800/call1 or http://localhost:8800/call1
+
+If we are having api gateway
+192.123.4.2 7700	http://192.123.4.2:7700/call
+			http://192.123.4.2:7700/call1
+

@@ -1,0 +1,13 @@
+package com.dxc.service;
+
+import com.dxc.model.User;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public User getUser(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
